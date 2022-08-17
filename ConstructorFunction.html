@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            text-align: center;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Constructor Function Practical</h1>
+    </header>
+
+    <section>
+
+        <script>
+            function Student(sname, fname, mname, addr) {
+                this.Student_Name = sname;
+                this.Father_Name =fname;
+                this.Mother_Name =mname;
+                this.Address =addr;
+            }
+
+            let Student_1=new Student("Student_1","Father_1","Mother_1","Address_1");
+            document.write(JSON.stringify(Student_1));
+
+            let Student_2=new Student("Student_2","Father_","Mother_2","Address_2");
+            document.write(JSON.stringify(Student_2));
+
+        </script>
+
+    </section>
+
+</body>
+
+</html>

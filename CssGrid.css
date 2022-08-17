@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 30px;
+}
+
+section {
+    border: solid red 5px;
+    background-color: aquamarine;
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 350px 200px 400px;
+    grid-template-rows: 200px 300px 400px;
+    grid-gap: 5px;
+}
+
+#list1 {
+    background-color: blueviolet;
+}
+
+#list2 {
+    background-color: cadetblue;
+}
+
+#list3 {
+    background-color: darksalmon;
+}
+
+#list4 {
+    background-color: chartreuse;
+}
+
+#list5 {
+    background-color: cornflowerblue;
+}
+
+#list6 {
+    background-color: cadetblue;
+}
+
+#list7 {
+    background-color: darkorange;
+}
+
+#list8 {
+    background-color: gold;
+}
